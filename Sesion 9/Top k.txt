@@ -1,0 +1,4 @@
+copiar en top k los k primeros de v
+ordenar top k	recorrer v -izda-
+	insertar v[izda] de forma ordenada en topk
+	pero sin incrementar k

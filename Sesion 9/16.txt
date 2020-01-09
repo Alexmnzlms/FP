@@ -1,0 +1,16 @@
+lim_prim_col = 31
+
+for(fil...)
+	lim = lim_prim_col
+	
+	for(col...)
+		m[fil][col]= lim
+		
+		if(col != UMBRAL)
+			incr = normal
+		else
+			incr = valor segun sea fil
+
+		lim = lim + incr
+
+	actualizar lim_prim_col segun sea fil

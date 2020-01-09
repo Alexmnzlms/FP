@@ -1,0 +1,18 @@
+a)
+char tipo_radar;
+cin >> tipo_radar;
+
+if (tipo_radar == 'F' && tipo_radar == 'f')
+	......
+
+b) 
+double velocidad;
+cin >> velocidad;
+if (velocidad > 100 && velocidad < 70)
+	cout << "\nVelocidad fuera del rango";
+
+c) 
+double velocidad;
+cin >> velocidad;
+if (velocidad > 100 || velocidad > 110)
+	cout << "Velocidad excesiva";
